@@ -1,0 +1,6 @@
+ protoc --python_out=. ./person.proto 
+ python using_protobuf.py
+
+ protoc --cpp_out=. ./person.proto 
+ g++ using_protobuf.cpp person.pb.cc -o using_protobuf -lprotobuf
+ ./using_protobuf

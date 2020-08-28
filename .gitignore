@@ -1,0 +1,11 @@
+*.o
+*.a
+*.so
+*.pyc
+*.bin
+*.jpg
+*events*
+*.ipynb_checkpoints*
+avgpool/caffe_pool_ave
+*.ipynb
+*.vscode*
